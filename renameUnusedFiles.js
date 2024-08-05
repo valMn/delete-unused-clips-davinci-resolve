@@ -62,7 +62,7 @@ function scanFolders(folder) {
 
 function renameFile(filePath) {
   const ext = path.extname(filePath);
-  const newFilePath = filePath.replace(ext, ` unused_Davinci{ext}`);
+  const newFilePath = filePath.replace(ext, `-unused_Davinci{ext}`);
   fs.rename(filePath, newFilePath, (err) => {
     if (err) {
       console.error(`Error renaming file ${filePath} to ${newFilePath}: ${err}`);
