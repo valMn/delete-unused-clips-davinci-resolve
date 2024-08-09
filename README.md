@@ -1,6 +1,6 @@
 ## Script used to batch rename and delete unused Davinci Resolve project video clips.
 
-Youtube tutorial link: (https://www.youtube.com/watch?v=WT0zjqI25K4).
+Youtube tutorial link: (https://youtu.be/72Lv2lCgO44).
 
 Download and install Node JS:
 - Mac (https://nodejs.org/en/download/package-manager) use terminal to install
